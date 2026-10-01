@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Benchmark outputs, checkpoints, and logs
+outputs/
+results/
+checkpoints/
+models/
+runs/
+logs/
+tensorboard/
+*.pt
+*.pth
+*.ckpt
+*.tfevents.*
